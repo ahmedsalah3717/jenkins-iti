@@ -15,7 +15,7 @@ spec:
         app: agent-app
     spec:
       containers:
-      - image: mahmoudahaby/jenkins-pro:${BUILD_NUMBER}
+      - image: ahmedsalah3717/jenkins-pro:${BUILD_NUMBER}
         name: agent-app
         imagePullPolicy: Always
         ports:
